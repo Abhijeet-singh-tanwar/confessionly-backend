@@ -22,7 +22,7 @@
       const message = document.getElementById('message').value;
       const recipient = document.getElementById('recipient').value;
 
-      const response = await fetch('http://localhost:3000/confess', {
+      const response = await fetch('https://confessionly-backend.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
